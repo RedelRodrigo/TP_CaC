@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.637);
+  width: 400px;
+  padding: 2px;
+  border: solid 1px;
+}
+
+.form h1 {
+  text-decoration: underline 1px;
+  text-shadow: 1px 1px 20px rgb(255, 0, 0);
+}
+
+.grupo {
+  margin-block: 15px;
+}
+
+.grupo input {
+  background: transparent;
+  border: solid 1px;
+  box-shadow: inset 1px 1px 12px rgba(255, 0, 0, 0.687);
+
+  height: 23px;
+  padding-left: 7px;
+}
+
+.grupo label {
+  text-shadow: 1px 1px 20px rgb(255, 0, 0);
+}
+
+#boton {
+  box-shadow: inset 1px 1px 10px rgba(255, 0, 0, 0.539);
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+.warning {
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 0 5px red;
+  box-shadow: 0 0 6px 0 white;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+  p {
+    text-decoration: underline;
+    text-shadow: 1px 0 5px rgb(255, 255, 255);
+  }
+}
+
+#genero {
+  text-align: left;
+  text-align: center;
+}
+
+#imagenform {
+  height: 50px;
+  width: 100%;
+  display: block;
+}
+
+#terminos{
+  box-shadow: none;
+  color: red;
+}
+
+#termino{
+  margin-top: 30px;
+}
