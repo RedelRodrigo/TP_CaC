@@ -51,38 +51,47 @@
                     <h1>Suscríbete!</h1>
                     <div class="grupo">
                         Nombre:
-                        <input type="text" name="" id="name">
+                        <input type="text" name="name" id="name">
                         <p class="warning" id="warningn"></p>
-                        <div class="grupo">
-                            Contraseña:
-                            <input type="password" name="" id="pass">
-                            <p class="warning" id="warningp"></p>
-                        </div>
-                        <div class="grupo">
-                            Mail:
-                            <input type="email" name="" id="mail">
-                            <p class="warning" id="warningm"></p>
-                        </div>
-                        <div class="grupo" id="genero">
-                            Genero:<select name="" id="gen">
-                                    <option value="1"> Masculino</option>
-                                    <option value="2">Femenino</option>
-                                </select>
-                            
-                        </div>
-                        <div class="grupo" id="imagenform">
-                            Seleccione una imagen:<input type="file" accept=".jpg,.png" id="imgform">
-                            <p class="warning" id="warningi"></p>
-                        </div>
-                        <div class="grupo" id="termino">
-                            Acepto términos y condiciones <input type="checkbox" id="terminos">
-                            <p class="warning" id="warningt"></p>
-                        </div>
-                        <button id="boton" type="submit"> Suscribirse </button>
-                    </div>
+                    </div> <!-- Cerrado el div aquí -->
+
+                    <div class="grupo">
+                        Contraseña:
+                        <input type="password" name="password" id="pass">
+                        <p class="warning" id="warningp"></p>
+                    </div> <!-- Cerrado el div aquí -->
+
+                    <div class="grupo">
+                        Mail:
+                        <input type="email" name="email" id="mail">
+                        <p class="warning" id="warningm"></p>
+                    </div> <!-- Cerrado el div aquí -->
+
+                    <div class="grupo" id="genero">
+                        Genero:
+                        <select name="gender" id="gen">
+                            <option value="1">Masculino</option>
+                            <option value="2">Femenino</option>
+                        </select>
+                    </div> <!-- Cerrado el div aquí -->
+
+                    <div class="grupo" id="imagenform">
+                        Seleccione una imagen:
+                        <input type="file" accept=".jpg,.png" name="image" id="imgform">
+                        <p class="warning" id="warningi"></p>
+                    </div> <!-- Cerrado el div aquí -->
+
+                    <div class="grupo" id="termino">
+                        Acepto términos y condiciones
+                        <input type="checkbox" name="terms" id="terminos">
+                        <p class="warning" id="warningt"></p>
+                    </div> <!-- Cerrado el div aquí -->
+
+                    <button id="boton" type="submit">Suscribirse</button>
+                </div>
             </form>
         </div>
-        <script src="../form.js"></script>
+        <script src="../js/form.js"></script>
 </body>
 
 
