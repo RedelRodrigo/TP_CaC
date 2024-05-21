@@ -226,3 +226,11 @@ li a.active, li a:hover{
 #check:checked ~ .checkbtn{
   visibility: hidden;
 }
+
+.mensaje{
+  display: flex;
+  justify-content: space-evenly;
+  a{
+    color:rgb(50, 39, 39);
+}
+}
